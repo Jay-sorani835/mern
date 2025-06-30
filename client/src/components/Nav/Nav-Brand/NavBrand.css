@@ -1,0 +1,30 @@
+.navbrand__container {
+    height: 100%;
+    width: 20%;
+    min-width: 150px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 2%;
+}
+
+.navbrand {
+    /* font-size: 2.5rem;
+    font-weight: bolder; */
+    height: auto;
+    width: 50%;
+    min-width: 400px;
+    margin: auto 10px;
+    display: flex;
+    justify-content: normal; /* Align text to the left */
+    align-items: center;
+    font-weight: bolder;
+    margin: auto;
+}
+
+
+@media screen and (max-width: 600px) {
+    .navbrand__container  {
+        align-self: center;
+    }
+}
